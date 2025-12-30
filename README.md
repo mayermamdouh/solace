@@ -28,7 +28,7 @@ src/
 └─ types/
     └─ index.ts           # TypeScript type definitions
 
-##Route Details:
+## Route Details:
 / - Department Management Page: Main dashboard for viewing and managing departments
 /profile - User Profile Page: User profile settings and information
 
@@ -64,10 +64,6 @@ cd backend
 npm install
 npm run start:dev
 
-
-### **5. (Key Points)**
-
-```markdown
 ````
 ## Key Points
 
