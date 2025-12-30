@@ -28,7 +28,7 @@ src/
 └─ types/
     └─ index.ts           # TypeScript type definitions
 
-Route Details:
+##Route Details:
 / - Department Management Page: Main dashboard for viewing and managing departments
 /profile - User Profile Page: User profile settings and information
 
