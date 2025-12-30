@@ -9,23 +9,28 @@ React + TypeScript frontend for managing departments and user profiles.
 - Styled with **TailwindCSS**
 
 ## Project Structure
-
 src/
-├─ apis/ # API calls using Axios
+├─ apis/                    # API calls using Axios
 ├─ components/
-│ ├─ department/ # Department components
-│ ├─ header/ # Header components
-│ ├─ sidebar/ # Sidebar components
-│ ├─ ui/ # Reusable UI components (Button, etc.)
-│ └─ userProfile/ # UserProfile components
+│   ├─ department/         # Department components
+│   ├─ header/            # Header components
+│   ├─ sidebar/           # Sidebar components
+│   ├─ ui/                # Reusable UI components
+│   │   └─ Button/        # Button component
+│   └─ userProfile/       # UserProfile components
 ├─ layout/
-│ └─ ProfileLayout.tsx # Layout wrapper
+│   └─ ProfileLayout.tsx  # Layout wrapper
 ├─ lib/
-│ └─ axios.ts # Axios client setup
+│   └─ axios.ts           # Axios client setup
 ├─ pages/
-│ ├─ DepartmentPage.tsx
-│ └─ ProfilePage.tsx
+│   ├─ DepartmentPage.tsx
+│   └─ ProfilePage.tsx
 └─ types/
+    └─ index.ts           # TypeScript type definitions
+
+Route Details:
+/ - Department Management Page: Main dashboard for viewing and managing departments
+/profile - User Profile Page: User profile settings and information
 
 ## Dependencies
 
@@ -63,10 +68,10 @@ npm run start:dev
 ### **5. (Key Points)**
 
 ```markdown
+````
 ## Key Points
 
 1. **Performance:** Components should render efficiently with React Query.
 2. **Pixel Perfect:** Follow the Figma design exactly.
 3. **Clean Code:** Maintain readable and maintainable code.
 4. **README:** Explains how to run the project and project structure.
-````
