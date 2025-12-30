@@ -1,4 +1,4 @@
-# Frontend Project
+# All Project
 
 ## Overview
 
@@ -29,9 +29,8 @@ src/
     └─ index.ts           # TypeScript type definitions
 
 ## Route Details:
-/ - Department Management Page: Main dashboard for viewing and managing departments
-/profile - User Profile Page: User profile settings and information
-
+1. **/**: Department Management Page: Main dashboard for viewing and managing departments
+2. **/profile**: User Profile Page: User profile settings and information
 ## Dependencies
 
 - react
